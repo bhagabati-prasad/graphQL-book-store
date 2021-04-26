@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "6082e5f8d26f592310088181"
+  },
+  "name": "Avengers",
+  "genre": "Sci-Fi",
+  "authorId": "60829002b0536f23a4cb2765",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6082e62fd26f592310088182"
+  },
+  "name": "Scary Movie",
+  "genre": "Fantasy",
+  "authorId": "6082e554d26f59231008817f",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6082e653d26f592310088183"
+  },
+  "name": "A Haunted House",
+  "genre": "Fantasy",
+  "authorId": "6082e56bd26f592310088180",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6082e668d26f592310088184"
+  },
+  "name": "A Haunted House 2",
+  "genre": "Fantasy",
+  "authorId": "6082e56bd26f592310088180",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6082e67cd26f592310088185"
+  },
+  "name": "Scary Movie 2",
+  "genre": "Fantasy",
+  "authorId": "6082e554d26f59231008817f",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6085850cd9743821989a118f"
+  },
+  "name": "Spudir-man",
+  "genre": "Sci-Fi",
+  "authorId": "60829002b0536f23a4cb2765",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6085859bd9743821989a1191"
+  },
+  "name": "Hello World",
+  "genre": "Technology",
+  "authorId": "6082e56bd26f592310088180",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6085876fd9743821989a1192"
+  },
+  "name": "John Wick",
+  "genre": "Action",
+  "authorId": "6082e554d26f59231008817f",
+  "__v": 0
+}]

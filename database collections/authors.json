@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "60829002b0536f23a4cb2765"
+  },
+  "name": "Aleph Naught",
+  "age": 24,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6082e554d26f59231008817f"
+  },
+  "name": "Chintu Chutiya",
+  "age": 18,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6082e56bd26f592310088180"
+  },
+  "name": "Bhagia Bsdk",
+  "age": 22,
+  "__v": 0
+}]
