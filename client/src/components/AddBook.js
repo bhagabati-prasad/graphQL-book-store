@@ -2,9 +2,9 @@ import { useState } from 'react';
 import { graphql } from 'react-apollo';
 import { flowRight as compose } from 'lodash';
 import {
-  getAuthorQuery,
+  getAuthorsQuery,
   addBookMutation,
-  getBookQuery,
+  getBooksQuery,
 } from '../queries/queries';
 
 function AddBook(props) {
@@ -19,14 +19,18 @@ function AddBook(props) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    props.addBookMutation({
-      variables: {
-        name: book.name,
-        genre: book.genre,
-        authorId: book.author,
-      },
-      refetchQueries: [{ query: getBookQuery }],
-    });
+    if (book.name != '' && book.genre != '' && book.author != '') {
+      props.addBookMutation({
+        variables: {
+          name: book.name,
+          genre: book.genre,
+          authorId: book.author,
+        },
+        refetchQueries: [{ query: getBooksQuery }],
+      });
+    } else {
+      alert('empty field!');
+    }
   };
 
   return (
@@ -75,6 +79,6 @@ function AddBook(props) {
 }
 
 export default compose(
-  graphql(getAuthorQuery, { name: 'authorsQuery' }),
+  graphql(getAuthorsQuery, { name: 'authorsQuery' }),
   graphql(addBookMutation, { name: 'addBookMutation' })
 )(AddBook);
